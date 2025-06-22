@@ -1,0 +1,146 @@
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.title {
+  text-align: center;
+  color: #4b3ca7;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.formGroup {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 450;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1.8px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.inputError {
+  border-color: #e63946;
+}
+
+.errorText {
+  color: #e63946;
+  font-size: 13px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.phoneGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.countryCode {
+  max-width: 100px;
+  flex-shrink: 0;
+}
+
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.togglePasswordBtn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #764ba2;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  user-select: none;
+}
+
+.submitBtn {
+  padding: 12px;
+  background: #764ba2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtnDisabled {
+  background: #b2a6d5;
+  cursor: not-allowed;
+}
+
+.detailsContainer {
+  background: #f6f5ff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 15px rgba(118, 75, 162, 0.15);
+  font-size: 16px;
+}
+
+.detailsTitle {
+  text-align: center;
+  color: #4b3ca7;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.detailsList {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 15px;
+  column-gap: 10px;
+}
+
+.dt {
+  font-weight: 600;
+  color: #666;
+}
+
+.dd {
+  margin: 0;
+  color: #333;
+  word-break: break-word;
+}
+
+.buttonBack {
+  margin-top: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #764ba2;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
